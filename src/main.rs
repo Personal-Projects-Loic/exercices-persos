@@ -7,12 +7,12 @@ fn main() {
     // exo 1
     let mut type1 = String::from("no more fortnite");
     let mut type2 = String::from("yes more fortnite");
-    let un_gros_prout = SomethingToDisplay {
+    let un_truc = SomethingToDisplay {
         test: "eggy".to_string(),
         comment: "worst than fornite".to_string(),
     };
 
-    un_gros_prout.print();
+    un_truc.print();
 
     swap_i32(42, 24);
     swap_any_type(&mut type1, &mut type2);
